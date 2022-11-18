@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="header">
+
+        <div class="creative animate">
+            <p>Admission Open</p>
+        </div>
+
+        <nav>
+            <a href="index.html"><img src="Images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class='bx bx-x' onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick="showMenu()"></i>
+        </nav>
+
+        
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p> elit. Vel culpa rem officia, possimus atque molestiae saepe aspernatur nobis accusamus <br> epellat? Magnam, tempore mollitia.</p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+
+
+    <!-- COURSE -->
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, blanditiis?</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediater</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat sed itaque repellendus tempora necessitatibus nesciunt eum quo veniam ipsum asperiores.</p>
+            </div>
+            
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio delectus nostrum ab quo, obcaecati reprehenderit aspernatur vitae commodi assumenda et!</p>
+            </div>
+            
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est aperiam animi, tempora totam nam numquam. Ratione voluptates alias error aspernatur!</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- CAMPUS -->
+
+        <section class="campus">
+            <h1>Our Global Campus</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+            <div class="row">
+                <div class="campus-col">
+                    <img src="Images/london.png" alt="">
+                    <div class="layer">
+                        <h3>London</h3>
+                    </div>
+                </div>
+                
+                <div class="campus-col">
+                    <img src="Images/washington.png" alt="">
+                    <div class="layer">
+                        <h3>Washington</h3>
+                    </div>
+                </div>
+                
+                <div class="campus-col">
+                    <img src="Images/newyork.png" alt="">
+                    <div class="layer">
+                        <h3>New York</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- OUR FACILITIES -->
+        <section class="facilities">
+            <h1>Facilities</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="Images/library.png" alt="">
+                    <h3>World Class Library</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, nemo.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="Images/basketball.png" alt="">
+                    <h3>World Class <span class="nowrap">Basket Ball</span> </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, nemo.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="Images/cafeteria.png" alt="">
+                    <h3>Spacious Cafeteria</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, nemo.</p>
+                </div>
+            </div>
+
+        </section>
+
+
+
+    <!-- JAVASCRIPT for TOGGLE MENU -->
+    <script>
+        varNavLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>
